@@ -7,12 +7,9 @@ public class PostiveNegative
 	public static void main (String[] args) 
 	{
 		int a;
-      Scanner in = new Scanner(System.in);
-     
-      System.out.println("Enter an integer");
-      a = in.nextInt();
-      System.out.println("You entered integer " + a);
-if (a>0)
+      Scanner in = new Scanner(System.in);     
+     a = in.nextInt();
+      if (a>0)
   System.out.println("Positive");
   
    else
